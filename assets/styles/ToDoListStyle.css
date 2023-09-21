@@ -1,0 +1,29 @@
+li {
+  list-style-type: none;
+}
+.title {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.task {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.input-text {
+  width: 60%;
+}
+.button {
+  width: 30%;
+  background-color: green;
+  color: white;
+}
+.task-list {
+  text-align: left;
+}
+.check {
+  text-decoration: line-through;
+  color: grey;
+}

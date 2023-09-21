@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Корзина покупок</title>
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/shoppingBasket.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="shopping-bag">
+        <h1 class="shopping-bag__title">Корзина</h1>
+        <ul class="products">
+          <!--Товар №1 -->
+          <li class="product">
+            <img
+              class="product__image"
+              src="assets/images/stegosaurus.jpg"
+              alt="Стегозавр"
+            />
+            <div class="product__features">
+              <h2 class="product__title">Мягкая игрушка ЙЭТТЕЛИК</h2>
+              <p class="product__text">Стегозавр, 50 см, зелeный</p>
+              <p class="product__text quantity">Количество: 1</p>
+            </div>
+            <div class="product__price stegosaurus">
+              <p class="price-default stegosaurus__wrapper">
+                <span class="stegosaurus-real">4040</span> руб.
+              </p>
+            </div>
+          </li>
+          <!--Товар №2 -->
+          <li class="product">
+            <img
+              class="product__image"
+              src="assets/images/brontosaurus.jpg"
+              alt="Бронтозавр"
+            />
+            <div class="product__features">
+              <h2 class="product__title">Мягкая игрушка ЙЭТТЕЛИК</h2>
+              <p class="product__text">Бронтозавр, 30 см, коричневый</p>
+              <p class="product__text quantity">Количество: 1</p>
+            </div>
+            <div class="product__price brontosaurus">
+              <p class="price-default brontosaurus__wrapper">
+                <span class="brontosaurus-real">2000</span> руб.
+              </p>
+            </div>
+          </li>
+          <!--Товар №3 -->
+          <li class="product">
+            <img
+              class="product__image"
+              src="assets/images/triceratops.jpg"
+              alt="Трицераптос"
+            />
+            <div class="product__features">
+              <h2 class="product__title">Мягкая игрушка ЙЭТТЕЛИК</h2>
+              <p class="product__text">Трицераптос, 33 см, коричневый</p>
+              <p class="product__text quantity">Количество: 1</p>
+            </div>
+            <div class="product__price triceratops">
+              <p class="price-default triceratops__wrapper">
+                <span class="triceratops-real">1999</span> руб.
+              </p>
+            </div>
+          </li>
+          <!--Товар №4 -->
+          <li class="product">
+            <img
+              class="product__image"
+              src="assets/images/ankylosaurus.jpg"
+              alt="Анкилозавр"
+            />
+            <div class="product__features">
+              <h2 class="product__title">Мягкая игрушка ЙЭТТЕЛИК</h2>
+              <p class="product__text">Анкилозавр, 55 см, зелeный</p>
+              <p class="product__text quantity">Количество: 1</p>
+            </div>
+            <div class="product__price ankylosaurus">
+              <p class="price-default ankylosaurus__wrapper">
+                <span class="ankylosaurus-real">4750</span> руб.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--Итого: -->
+      <div class="result">
+        <button type="button" class="total__button">
+          Использовать купон на 20%
+        </button>
+        <div class="result__sum">
+          <p class="result__text total-result">Итого:</p>
+          <p class="price-default result__wrapper">
+            <span class="result__number-total total__price"></span> руб.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="assets/scripts/shoppingBasket.js"></script>
+  </body>
+</html>
